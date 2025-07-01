@@ -406,7 +406,7 @@ span{
     }
     .about-img img{
         width: 90vw;
-        margin-top: 4rem;
+        margin-top: 3rem;
     }
     .Services h2{
         margin-bottom: 3rem;
@@ -427,8 +427,8 @@ span{
         margin-top: 8rem;
     }
     .about-img img{
-        width: 100vw;
-        margin-top: 4rem;
+        width: 80vw;
+        margin-top: 3rem;
     }
     #menu-Icon{
         display: block;
