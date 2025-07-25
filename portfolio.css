@@ -10,10 +10,16 @@
     font-family: 'nunito',sans-serif;
 }
 :root{
-    --bg-color: #31395d;
-    --snd-bf-color: #293150;
-    --text-color: #ffffff;
+    --bg-color: #121212;
+    --snd-bf-color: #1e1e1e;
+    --text-color: #e0e0e0;
     --main-color: #cb67f9;
+}
+.light-theme{
+    --bg-color: #ffffff;        
+  --snd-bf-color: #f0f0f0;   
+  --text-color: #1a1a1a;      
+  --main-color: #1c42ff;
 }
 html{
     font-size: 62.5%;
@@ -34,6 +40,10 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+#light{
+    width: 26px;
+    cursor: pointer;
 }
 .logo{
     font-size: 2.5rem;
