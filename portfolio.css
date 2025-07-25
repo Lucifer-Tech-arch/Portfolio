@@ -81,12 +81,12 @@ body{
 .home-content h3,h1,h2{
     font-size: 3.2rem;
     font-weight: 700;
-    color: white;
+    color: var(--text-color);
 }
 .about-content h3{
     font-size: 3.2rem;
     font-weight: 700;
-    color: white;
+    color: var(--text-color);
 }
 p{
     color: var(--text-color);
@@ -367,7 +367,7 @@ span{
     top: 0;
     left: 50%;
     margin-left: -7px;
-    background: #fff;
+    background: var(--text-color);
     z-index: -1;
     animation: moveline 5s linear forwards;
 }
